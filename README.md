@@ -14,11 +14,11 @@
 (https://bookmyshow.cyclic.cloud/api/booking)
 
 ### Technology Used
-# -React js: For frontend
-# -Node JS : For backends
-# -Express JS : Framework for node JS
-# -MongoDB Atlas : For database
-# -Mongoose : ODM library for mongoDB
+#### -React js: For frontend
+#### -Node JS : For backends
+#### -Express JS : Framework for node JS
+#### -MongoDB Atlas : For database
+#### -Mongoose : ODM library for mongoDB
 
 ## Screenshot of the application
 ![image](https://github.com/Yashmaha007/BookMyShowFrontend/assets/118992175/00f908b7-28c0-4762-98cc-915120799509)
