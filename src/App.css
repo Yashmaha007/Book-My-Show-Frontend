@@ -1,0 +1,180 @@
+/*CSS for the project*/
+.element {
+  font-family: sans-serif;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.element1 {
+  width: 140px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+
+.element:hover {
+  cursor: pointer;
+}
+.container {
+  border: 2px solid black;
+  width: 40vw;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: #eee;
+  box-shadow: 3px 3px 10px rgb(6, 6, 6);
+  font-family: sans-serif;
+}
+.container-movie {
+  border: 2px solid black;
+  width: 55vw;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-family: sans-serif;
+  background-color: #eee;
+  box-shadow: 3px 3px 10px rgb(6, 6, 6);
+}
+
+.BookingContainer {
+  width: 30vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #eee;
+  font-family: sans-serif;
+  box-shadow: 5px 5px 10px rgb(6, 6, 6);
+}
+
+.AppContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.mainContainer {
+  /* border: 10px solid black; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #333545;
+  /* border-radius: 50px; */
+}
+.submit-btn {
+  background: #f08e33;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0);
+  border: 1px solid black;
+  text-shadow: none;
+  padding: 15px;
+  width: 30%;
+  height: 100%;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background: #f35a07;
+  color: #000;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(6, 6, 6);
+  text-shadow: none;
+}
+.NoBooking {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 40vh;
+  margin-top: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+}
+.btn2 {
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+}
+.img-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.Movie-img {
+  height: 180px;
+  width: 150px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.LoaderImg {
+  height: 200px;
+  width: 200px;
+  margin-left: 120px;
+}
+
+/* when screen width becomes less than */
+@media screen and (max-width: 1480px) {
+  .movie-div {
+    display: none;
+  }
+  .element1 {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .Movie-name {
+    margin: 0px 30px 10px 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .container {
+    width: 80vw;
+  }
+  .container-movie {
+    width: 80vw;
+  }
+  .BookingContainer {
+    width: 80vw;
+  }
+  .btn {
+    width: 80vw;
+  }
+  .btn2 {
+    width: 80vw;
+  }
+  .NoBooking {
+    width: 80vw;
+  }
+  .LoaderImg {
+    margin-left: 50px;
+  }
+  .element {
+    margin-left: 20px;
+  }
+}
